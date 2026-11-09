@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color: white;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+  /* border: 3px red solid; */
+}
+.margen{
+  padding: 15px;
+}
+.centrar{
+  text-align: center;
+}
+.negritas{
+  font-weight: bold;
+}
+.c_parte1{
+  background-color: #f4f4f4;
+}
+.c_logo{
+  display: inline-block;
+  width: 48%;
+  padding: 20px;
+  vertical-align: middle;
+}
+.c_datos{
+  display: inline-block;
+  width: 48%;
+  vertical-align: middle;
+  padding: 20px;
+  background-color: white;
+}
+.elementoformulario{
+  padding: 10px;
+  margin: 10px 30px;
+  border-radius: 5px;
+  width: 25%;
+  border: 1px #666666 solid;
+}
+.elementoformulario:focus{
+  background-color: #e1f3f7;
+}
+.c_datos button{
+  text-decoration: none;
+  color: white;
+  background-color: #cc9900;
+  border: 2px #cc9900 solid;
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.c_parte2 {
+width: 100%;
+border: 2px solid white;
+background-color: white;
+overflow: hidden;
+font-size: 0;
+}
+.c_parte2 a {
+display: inline-block;
+width: 14.28%;
+box-sizing: border-box;
+padding: 15px 5px;
+text-align: center;
+text-decoration: none;
+color: black;
+font-size: 16px;
+border-right: 1px solid #ddd;
+vertical-align: top;
+}
+.c_parte2 a:hover {
+display: inline-block;
+width: 14.28%;
+box-sizing: border-box;
+padding: 15px 5px;
+text-align: center;
+text-decoration: none;
+color: white;
+font-size: 16px;
+border-right: 1px solid #ddd;
+vertical-align: top;
+background-color: #5d0201;
+}
+.c_sistemas{
+  background-image: url(imagenes/fotoslide.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.c_parte3{
+  padding-top: 50px;
+  background-color: #f4f4f4;
+}
+.c_prestigio{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+.c_prestigio a{
+  text-decoration: none;
+  color: #5d0201;
+  font-size: 30px;
+}
+.c_prestigio a img{
+  width: 30px;
+  height: 30px;
+}
+.c_prestigio2 img{
+  width: 80%;
+  height: 200px;
+  padding: 10px;
+}
+.c_prestigio2 p{
+  text-decoration: none;
+  text-align: left;
+  margin: 0 30px;
+}
+.c_docentes{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+.c_docentes a{
+  text-decoration: none;
+  color: #5d0201;
+  font-size: 30px;
+}
+.c_docentes a img{
+  width: 30px;
+  height: 30px;
+}
+.c_docentes2 img{
+  width: 80%;
+  height: 200px;
+  padding: 10px;
+}
+.c_docentes2 p{
+  text-decoration: none;
+  text-align: left;
+  margin: 0 30px;
+}
+.c_instalaciones{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+.c_instalaciones a{
+  text-decoration: none;
+  color: #5d0201;
+  font-size: 30px;
+}
+.c_instalaciones a img{
+  width: 30px;
+  height: 30px;
+}
+.c_instalaciones2 img{
+  width: 40%;
+  height: 150px;
+  padding: 10px;
+}
+.c_instafotos{
+  width: 98%;
+  height: 90px;
+  text-align: center;
+}
+.c_parte4{
+  background-color: #f4f4f4;
+}
+.c_perfil{
+  display: inline-block;
+  vertical-align: top;
+  width: 69%;
+}
+.c_perfil ul{
+  padding: 0 40px;
+  margin-left: 20px;
+  list-style: url(imagenes/vineta1.jpg);
+}
+h3{
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Impact;
+}
+.c_campo{
+  display: inline-block;
+  width: 29%;
+  vertical-align: top;
+  color: white;
+  background-color: #5d0201;
+  padding: 30px;
+  border-radius: 20px;
+}
+.c_campo a{
+  text-decoration: none;
+  color: white;
+  background-color: #cc9900;
+  border: 2px #cc9900 solid;
+  width: 85%;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 175px;
+  border-radius: 10px;
+}
+h2{
+  color: #cc9900;
+}
+.c_parte5{
+  background-color: #101518;
+}
+.c_insti{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  color: white;
+  padding: 30px;
+}
+h4{
+  color: #cc9900;
+  text-align: center;
+}
+.c_mapa{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  padding: 30px;
+}
+.c_alumno{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  color: white;
+  padding: 30px;
+}
+hr{
+  background-color: #5d0201;
+  border: 2px solid #5d0201;
+  width: 100%;
+  height: 15px;
+}
